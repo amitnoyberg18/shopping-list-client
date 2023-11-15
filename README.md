@@ -1,27 +1,26 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Guide to running the client:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. git clone to you computer - git clone https://github.com/amitnoyberg18/shopping-list-client.git
 
-## Expanding the ESLint configuration
+2. add an .env file with this variable -
+      VITE_SHOPPING_LIST_URL=http://localhost:3000
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+4. open the vs code terminal and run npm install
+5. then run - npm run build
+6. and then run - npm run preview
 
-- Configure the top-level `parserOptions` property like this:
+   And now the client runs
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Additional developments
+
+for a Better user experience i added toast alerts.
+when you miss the text box or the select you will be notified with an alert that will disappear after a few seconds
+you will be notfied when the product has been added or updated
+
+כ
+ככ
+כםר ש 
