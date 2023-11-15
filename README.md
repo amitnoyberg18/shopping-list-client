@@ -21,6 +21,3 @@ for a Better user experience i added toast alerts.
 when you miss the text box or the select you will be notified with an alert that will disappear after a few seconds
 you will be notfied when the product has been added or updated
 
-כ
-ככ
-כםר ש 
