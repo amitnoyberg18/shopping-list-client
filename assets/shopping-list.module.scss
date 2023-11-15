@@ -1,0 +1,19 @@
+.page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .total-products{
+        padding: 1rem;
+        margin-right: 5%;
+        font-size: larger;
+        width: fit-content;
+        font-weight: 600;
+    }
+
+    .no-results {
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
